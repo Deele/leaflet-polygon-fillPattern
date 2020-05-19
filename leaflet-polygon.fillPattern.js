@@ -99,6 +99,8 @@ if (L.Browser.svg) {
                     _p.setAttribute('height', _im.height);
                     _img.setAttribute('width', _im.width);
                     _img.setAttribute('height', _im.height);
+                    _rect.setAttribute('width', _im.width);
+                    _rect.setAttribute('height', _im.height);
                 };
             }
             path.setAttribute('fill', "url(#"+_ref_id+")");
